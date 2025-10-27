@@ -8,8 +8,8 @@ def calculate_metrics(df):
             "total_sessions": 45,
             "total_tokens": 98765,
             "user_satisfaction": 34,
-            "accuracy": 78,
-            "groundedness": 82,
+            "accuracy": 35,
+            "groundedness": 56,
             "avg_response_time": 1.4,
             "retrieval_rate": 88,
         }
@@ -24,7 +24,7 @@ def calculate_metrics(df):
     
     # Industry-related dummy metrics (replace with real model evaluation later)
     metrics["accuracy"] = 78  # Placeholder for correctness/faithfulness check
-    metrics["groundedness"] = 82  # Measures factual grounding to retrieved context
+    metrics["groundedness"] = 46  # Measures factual grounding to retrieved context
     metrics["avg_response_time"] = 1.4  # Placeholder
     metrics["retrieval_rate"] = 88  # Placeholder for % of responses using RAG context
     
